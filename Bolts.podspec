@@ -1,5 +1,5 @@
 Pod::Spec.new do |s|
-  s.name         = 'Bolts'
+  s.name         = 'ParseBolts'
   s.version      = '1.9.2'
   s.summary      = 'Bolts is a collection of low-level libraries designed to make developing mobile apps easier.'
   s.description  = <<-DESC
@@ -7,11 +7,11 @@ Pod::Spec.new do |s|
 
                     The first component in Bolts is "tasks", which make organization of complex asynchronous code more manageable. A task is kind of like a JavaScript Promise, but available for iOS and Android.
                    DESC
-  s.homepage     = 'https://github.com/BoltsFramework'
+  s.homepage     = 'https://github.com/TomWFox/Bolts-ObjC'
   s.authors      = { 'Nikita Lutsenko' => 'nlutsenko@me.com' }
   s.license      = 'BSD'
-  s.source       = { :git => 'https://github.com/BoltsFramework/Bolts-ObjC.git', :tag => s.version.to_s }
-  s.social_media_url = 'https://twitter.com/ParseIt'
+  s.source       = { :git => 'https://github.com/TomWFox/Bolts-ObjC.git', :tag => s.version.to_s }
+  s.social_media_url = 'https://twitter.com/ParsePlatform'
   s.requires_arc = true
 
   s.ios.deployment_target = '8.0'
